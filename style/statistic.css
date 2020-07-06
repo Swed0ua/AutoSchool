@@ -1,0 +1,307 @@
+/** Logo **/
+
+.logo__wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.logo__wrapper > img {
+  height: 50px;
+}
+
+/** content scr1**/
+
+.statistics {
+    position: relative;
+    min-width: 40%;
+}
+
+.photoCar__wrapper {
+  position: absolute;
+  margin: 0;
+  margin-left: -30vh;
+  width: 70vw;
+  height: 70vw;
+  background-color: brown;
+  box-shadow: 0 0 10px 1px red;
+  border-radius: 1000px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.right__statistics {
+    display: block;
+  float: right;
+  padding-top: 80px;
+}
+
+.statistics__text {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.statistics__1 {
+    height: 50px;
+    width: 350px;
+    background-color: #19F52F;
+    float: right;
+    border-bottom-left-radius: 105px;
+    border-top-left-radius: 105px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Segoe UI;
+    color: rgba(0, 0, 0, 0.295);
+    box-shadow: 0 0 10px 1px #19F52F;
+    animation-name: anim1;
+    animation-duration: 1s;
+}
+
+.statistics__2 {
+    width: 250px;
+    height: 50px;
+    background-color: #EE4545;
+    float: right;
+    border-bottom-left-radius: 105px;
+    border-top-left-radius: 105px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Segoe UI;
+    color: rgba(0, 0, 0, 0.295);
+    box-shadow: 0 0 10px 1px #EE4545;
+    animation-name: anim2;
+    animation-duration: 1s;
+}
+
+.statistics__3 {
+    width: 300px;
+    height: 50px;
+    background-color: #0F5BCE;
+    float: right;
+    border-bottom-left-radius: 105px;
+    border-top-left-radius: 105px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Segoe UI;
+    color: rgba(0, 0, 0, 0.295);
+    box-shadow: 0 0 10px 1px #0F5BCE;
+    animation-name: anim3;
+    animation-duration: 1s;
+}
+
+.statistics__4 {
+    width: 200px;
+    height: 50px;
+    background-color: #DE7249;
+    float: right;
+    border-bottom-left-radius: 105px;
+    border-top-left-radius: 105px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Segoe UI;
+    color: rgba(0, 0, 0, 0.295);
+    box-shadow: 0 0 10px 1px #DE7249;
+    animation-name: anim4;
+    animation-duration: 1s;
+}
+
+@keyframes anim1 {
+    0% {
+        width: 50px;
+    }
+
+    100% {
+        width: 350px;
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        width: 50px;
+    }
+
+    100% {
+        width: 250px;
+    }
+}
+
+@keyframes anim3 {
+    0% {
+        width: 50px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+
+@keyframes anim4 {
+    0% {
+        width: 50px;
+    }
+
+    100% {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 920px){
+    
+    .statistics__1 {
+        width: 250px;
+    }
+
+    .statistics__2 {
+        width: 150px;
+    }
+
+    .statistics__3 {
+        width: 200px;
+    }
+    
+    .statistics__4 {
+        width: 100px;
+    }
+
+    @keyframes anim1 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 250px;
+        }
+    }
+
+    @keyframes anim2 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 150px;
+        }
+    }
+    
+    @keyframes anim3 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 200px;
+        }
+    }
+    
+    @keyframes anim4 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 100px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 600px)
+{
+    .photoCar__wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    
+    .statistics__1 {
+        width: 200px;
+    }
+
+    .statistics__2 {
+        width: 100px;
+    }
+
+    .statistics__3 {
+        width: 150px;
+    }
+    
+    .statistics__4 {
+        width: 50px;
+    }
+
+    @keyframes anim1 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 200px;
+        }
+    }
+
+    @keyframes anim2 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 100px;
+        }
+    }
+    
+    @keyframes anim3 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 150px;
+        }
+    }
+    
+    @keyframes anim4 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 50px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .statistics__1 {
+        width: 150px;
+    }
+
+    @keyframes anim1 {
+        0% {
+            width: 50px;
+        }
+    
+        100% {
+            width: 150px;
+        }
+    }
+}
